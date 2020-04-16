@@ -1,0 +1,30 @@
+/* pages/detail/detail.wxss */
+
+.footer {
+  position: fixed;
+  left: 0rpx;
+  bottom: 0rpx;
+  width: 100%;
+  height: 100rpx;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: whitesmoke;
+}
+
+.cartsum, .submitorder{
+  height: 90rpx;
+  flex: 1;
+  background-color: red;
+}
+.cartsum{
+  color: white;
+  border-top-left-radius: 40rpx;
+  border-bottom-left-radius: 40rpx;
+}
+.submitorder{
+   color: white;
+   background-color: greenyellow;
+  border-top-right-radius: 40rpx;
+  border-bottom-right-radius: 40rpx;
+}
